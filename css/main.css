@@ -1,0 +1,73 @@
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+body header nav {
+  display: grid;
+  justify-content: center;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+}
+main div.pop-up {
+  display: none;
+  padding: 2rem;
+  border-radius: 20px;
+}
+main div.pop-up p {
+  font-weight: 500;
+  text-align: center;
+  font-size: 2rem;
+}
+
+section.form-section {
+  display: grid;
+  justify-content: center;
+}
+section.form-section form {
+  overflow: hidden;
+  display: grid;
+  padding: 2rem;
+  margin: 0;
+  gap: 1rem;
+  border-radius: 10%;
+  width: 500px;
+  box-shadow: 0 0 3px 0.5px #121212;
+}
+section.form-section form label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+section.form-section form input {
+  width: 100%;
+  height: 50px;
+  font-size: 1.3rem;
+  outline: none;
+  padding: 0.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #121212;
+}
+section.form-section form select {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+section.form-section form button {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  border-radius: 20px;
+  box-shadow: 0 0 3px #121212;
+  transition: all, 1s;
+}
+section.form-section form button:hover {
+  color: #fff;
+  background: #3674B5;
+}/*# sourceMappingURL=main.css.map */

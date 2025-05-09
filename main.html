@@ -6,12 +6,41 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta property="og:description" content="جامعة القصيم - إحدى الجامعات الرائدة في السعودية تقدم برامج تعليمية متنوعة في مجالات البكالوريوس والماجستير والدكتوراة.">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/css/main.css">
     <title>Document</title>
 </head>
 <body>
+    <header >
+        <nav >
+            <img src="https://i1.rgstatic.net/ii/institution.image/AS%3A267463961317378%401440779785735_l" alt="Qassim University" class="institution-header-avatar__img">
+        </nav>
+    </header>
+    <main>
+        <!-- alert message display none -->
+        <div class="pop-up"> 
+            <p>
+                Welcome To <br> Qassim University Student Housing Lab
+            </p>
+        </div>
+        <section class="form-section">
+            <form action="">
+                <label for="name">Name :</label>
+                <input type="text" id="input-name" placeholder="Enter Your Name">
+                <label for="name">University number :</label>
+                <input type="number" id="input-add-num" placeholder="Enter Your Name">
+                <label for="name">Phone Number :</label>
+                <input type="number" id="phone-number" >"Enter Your Name">
 
-
-    
-    <script src="main.js"></script>
+                <select name="Collage" id="Collage">
+                    <option selected value="arabic language">Arabic language For Non Spekers</option>
+                    <option value="sharia">Shari'a</option>
+                    <option value="Computer">Computer</option>
+                </select>
+                <button id="submit" onclick="submit()" >Submit</button>
+               
+            </form>
+        </section>
+    </main>
+    <script src="/main.js"></script>
 </body>
 </html>
