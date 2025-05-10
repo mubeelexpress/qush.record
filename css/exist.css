@@ -1,0 +1,53 @@
+article button {
+  font-size: 2rem;
+  padding: 2rem;
+  color: #fff;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-weight: 700;
+  box-shadow: 0 0 3px #121211;
+}
+article button a {
+  text-decoration: none;
+  color: white;
+}
+article .enter {
+  background: #309898;
+}
+article .enter:hover {
+  background: #a4fefe;
+  color: #121212;
+}
+article .exist {
+  background: #CB0404;
+}
+article .exist:hover {
+  background: #eb9090;
+  color: #121211;
+}
+
+div table {
+  border: 1px solid #121212;
+  padding: 2rem;
+}
+div table tr {
+  margin: 1rem;
+  border-bottom: 0.5px solid #6f6e6e;
+}
+div table tr:nth-child(odd) {
+  background: #dae9f6;
+}
+div table tr:first-child {
+  background: #27548A;
+  color: white;
+}
+div table th {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+div table td {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  border-right: 0.5px solid #a5a5a5;
+}/*# sourceMappingURL=exist.css.map */

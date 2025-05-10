@@ -16,10 +16,17 @@ body header nav {
 main {
   display: grid;
   justify-content: center;
+  position: relative;
 }
 main div.pop-up {
+  background: #fff;
   display: none;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  box-shadow: 0 0 3px black;
   padding: 2rem;
+  position: absolute;
   border-radius: 20px;
 }
 main div.pop-up p {
