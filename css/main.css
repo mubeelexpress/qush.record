@@ -60,6 +60,7 @@ section.form-section form input {
 }
 section.form-section form select {
   font-size: 1rem;
+  outline: none;
   font-weight: 500;
 }
 section.form-section form button {
