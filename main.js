@@ -27,29 +27,45 @@ const existBtn = document.querySelector('.exist').addEventListener('click', ()=>
 
 });
 
-let student = [
-    {
-        name : 'muhammad',
-        qunumber: '123456789',
-        phone:'123456789',
-        collage:'computer',
-        computerNumber:'01',
-        date:'2/5/25',
-        starTime:'10:00pm',
-        existTime:'11:00pm'
+// let Student = [
+//     {
+//         name : 'muhammad',
+//         qunumber: '123456789',
+//         phone:'123456789',
+//         collage:'computer',
+//         computerNumber:'01',
+//         date:'2/5/25',
+//         starTime:'10:00pm',
+//         existTime:'11:00pm'
 
-    }
-];
-
-const Name = document.querySelector('#input-name').value;
-const qUnumber = document.querySelector('#input-add-num').value;
-const Phone = document.querySelector('#phone-number').value;
-const collage = document.querySelector('#collage');
-const computerNumber = document.querySelector('#computer-number');
-// submit button
+//     }
+// ];
+// function addStudent() {
+//     Student.push(
+//         {
+//             name : 'muhammad',
+//             qunumber: '123456789',
+//             phone:'123456789',
+//             collage:'computer',
+//             computerNumber:'01',
+//             date:'2/5/25',
+//             starTime:'10:00pm',
+//             existTime:'11:00pm'
+//         }
+//     )
+// }
 document.querySelector('#submit').addEventListener('click',()=> {
-    if (Name ===""|| qUnumber ===""||Phone ==="" || collage.value ==="" || computerNumber.value === "") {
+    const Name = document.querySelector('#input-name').value;
+    const qUnumber = document.querySelector('#input-add-num').value;
+    const Phone = document.querySelector('#phone-number').value;
+    let Collage = document.querySelector('#collage');
+    let ComputerNumber = document.querySelector('#computer-number');
+    let collage = Collage.value;
+    let computerNumber = ComputerNumber.value;
+
+    if (Name ===""|| qUnumber ===""||Phone ==="" || collage ==="" || computerNumber === "") {
         // console.log('normal work');
+        
         popup2.style.display = "grid";
 
         setInterval(() => {
@@ -57,12 +73,15 @@ document.querySelector('#submit').addEventListener('click',()=> {
         },2000);
 
     }else{
+        // addStudent();
         form.style.display = "none";
         home.style.display = "grid";
-
-        console.log(student);
-            
-            
+        console.log(Name);
+        console.log(qUnumber);
+        console.log(Phone);
+        console.log(collage);
+        console.log(computerNumber);
+        
         }
         
 })
