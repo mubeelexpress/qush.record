@@ -16,12 +16,11 @@ body header nav {
 main {
   display: grid;
   justify-content: center;
-  position: relative;
 }
 main div.pop-up {
   background: #fff;
   display: none;
-  top: 20%;
+  top: 30%;
   left: 10%;
   right: 10%;
   box-shadow: 0 0 3px black;
@@ -34,12 +33,7 @@ main div.pop-up p {
   text-align: center;
   font-size: 2rem;
 }
-
-section.form-section {
-  display: grid;
-  justify-content: center;
-}
-section.form-section form {
+main section form {
   display: grid;
   justify-content: center;
   overflow: hidden;
@@ -51,11 +45,11 @@ section.form-section form {
   width: 300px;
   box-shadow: 0 0 3px 0.5px #121212;
 }
-section.form-section form label {
+main section form label {
   font-size: 1rem;
   font-weight: 500;
 }
-section.form-section form input {
+main section form input {
   width: 100%;
   height: 30px;
   font-size: 1rem;
@@ -65,12 +59,12 @@ section.form-section form input {
   border-radius: 10px;
   box-shadow: 0 0 3px #121212;
 }
-section.form-section form select {
+main section form select {
   font-size: 1rem;
   outline: none;
   font-weight: 500;
 }
-section.form-section form button {
+main section form button {
   padding: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
@@ -79,7 +73,7 @@ section.form-section form button {
   box-shadow: 0 0 3px #121212;
   transition: all, 1s;
 }
-section.form-section form button:hover {
+main section form button:hover {
   color: #fff;
   background: #3674B5;
 }/*# sourceMappingURL=main.css.map */
