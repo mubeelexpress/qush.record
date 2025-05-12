@@ -1,0 +1,1 @@
+console.log('normal ready to work');

@@ -1,0 +1,15 @@
+form fieldset {
+  border-radius: 10px;
+}
+form fieldset label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+form fieldset input {
+  border: none;
+  border-radius: 10px;
+}
+form fieldset button {
+  font-size: 2rem;
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */
