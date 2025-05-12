@@ -1,0 +1,12 @@
+article {
+  border-radius: 20px;
+}
+article .student {
+  padding: 1rem;
+}
+article .student div div {
+  font-size: 1.5rem;
+}
+article .student:nth-child(odd) {
+  background: rgba(148, 180, 193, 0.4470588235);
+}/*# sourceMappingURL=logout.css.map */
