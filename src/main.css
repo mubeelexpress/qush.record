@@ -1,15 +1,29 @@
-form fieldset {
-  border-radius: 10px;
+section form fieldset {
+  border-radius: 20px;
 }
-form fieldset label {
+section form fieldset label {
   font-size: 1.5rem;
   font-weight: 600;
 }
-form fieldset input {
+section form fieldset input {
   border: none;
   border-radius: 10px;
+  font-size: 2rem;
+  font-weight: 500;
 }
-form fieldset button {
+section form fieldset a {
   font-size: 2rem;
   border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+section button:first-child:hover {
+  color: #f3f;
+}
+section button a {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 2rem;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
